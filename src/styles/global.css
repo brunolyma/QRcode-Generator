@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light dark;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+    background-color: #1b2034;
+
+    overflow-y: hidden;
+}
